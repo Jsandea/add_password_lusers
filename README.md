@@ -16,16 +16,18 @@ Puede ser útil para las siguientes situaciónes:
 3. Contraseñas para grupos:
    Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por elemplo los alumnos de Informática.
 
+## Descripción de las opciones del Menú.
+
 
 ## Puesta en marcha
 
-###1) Editar el script, cambiando la variable: "mi_servidor_ldap"
-###2) En un equipo cliente con Xubuntu 22 (no ejecutar en el servidor): 
+1. Editar el script, cambiando la variable: "mi_servidor_ldap"
+2. En un equipo cliente con Xubuntu 22 (no ejecutar en el servidor): 
 ```bash
     apt-get install python3-pip
     pip3 install ldap3
 ```
-###3) Ejecutar script: 
+3. Ejecutar script: 
 ```bash
     python3 add_password_lusers.py
 ```
