@@ -9,12 +9,12 @@ para facilitar la administración informática
 
 Puede ser útil para las siguientes situaciónes:
 
-###1) Asistencia a un profesor en el aula.
-    Si disponemos de una contraseña secreta pero fácil de recordar, la asistencia cuando el profesor da clases será más sencilla.
-###2) Pruebas de diágnostico 
-    Podemos generar una contraseña temporal sencilla para los alumnos. Así se agilizan el acceso a ordenadores, práctico cuando muchos alumnos están realizando una prueba.
-###3)
-    Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por elemplo los alumnos de Informática.
+1. Asistencia a un profesor en el aula:
+   Si disponemos de una contraseña secreta pero fácil de recordar, la asistencia cuando el profesor da clases será más sencilla.
+2. Pruebas de diágnostico:
+   Podemos generar una contraseña temporal sencilla para los alumnos. Así se agilizan el acceso a ordenadores, práctico cuando muchos alumnos están realizando una prueba.
+3. Contraseñas para grupos:
+   Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por elemplo los alumnos de Informática.
 
 
 ## Puesta en marcha
@@ -44,6 +44,5 @@ systemctl start slapd
 
 ### Restablecer copia de seguridad de ldap
 ```bash
-slapadd -n 1 -l backup_ldap_YYYYMMDD.ldif
-permisos
+slapadd -n 1 -l CopiadSeguridad.ldif
 ```
