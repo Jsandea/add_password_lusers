@@ -19,19 +19,19 @@ Puede ser útil en las siguientes situaciónes:
    Al disponer nosotros de una contraseña secreta, podemos forzar a que el profesorado cambie la que pone el sistema por defecto. Mejorando así la seguridad.
 
 ## Descripción de las opciones del Menú.
-1. **Añadir nueva contraseña.**
+1. **Añadir nueva contraseña:**
    Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios se mantienen, conviven ambas )
    Nos permite añadirla a el grupo de "Alumnos" de "Profesores" a ambos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad mejor almacenar la contraseña codificada. A pesar de que el algorimo SHA1 no es de los más
    seguros. Se hicieron pruebas con otros algoritmos más robustos pero no funcionaba.
-2. **Añadir contraseña a un grupo.**
+2. **Añadir contraseña a un grupo:**
    Añadimos una contraseña a los miembros de un grupo dado.
    En controlies podemos ver los grupos, los miembros de ese grupo , y el identificador de dicho grupo. (Hay grupos sin miembros)
-3. **Eliminar contraseña insertada.**
+4. **Eliminar contraseña insertada:**
    Con esa opción podemos eliminar una contraseña de la base de datos de usuarios.
    Podemos buscar una cotraseña en texto plano, o codificarla y buscar la contraseña ya codificada.
-5. **Mostrar usuario para comprobar inserción**
+5. **Mostrar usuario para comprobar inserción:**
    Por ejemplo si ponemos una contraseña a los miembros de un grupo, podemos buscar 2 miembros de este grupo y comprobar que la contraseña ha sido insertada en ambos.
-7. **Abortar Misión.**
+7. **Abortar Misión:**
    Salimos del programa
 
 
