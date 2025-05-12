@@ -51,14 +51,14 @@ Puede ser útil para las siguientes situaciónes:
 Es importante realizar una copia de seguridad de ldap antes de ejecutar el script.
 El script está probado por distintos compañeros, pero la modificar el árbol ldap, se recomienda hacer una copia de seguridad.
 
-### Generar copia de seguridad de ldap
+* Generar copia de seguridad de ldap
 ```bash
 systemctl stop slapd                   
 slapcat -l /root/CopiaSeguridad.ldif    
 systemctl start slapd                                                                    
 ```
 
-### Restablecer copia de seguridad de ldap
+* Restablecer copia de seguridad de ldap
 ```bash
 slapadd -n 1 -l CopiadSeguridad.ldif
 ```
