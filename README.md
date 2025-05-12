@@ -66,13 +66,13 @@ slapadd -n 1 -l CopiadSeguridad.ldif
 ```
 ## Problema con el depósito de claves
 Para evitar interferencias entre las contraseñas y que salga el molesto mensaje del depósito de claves,
-tenemos que aplicar en los equipos la siguiente regla puppet.
-
+tenemos que aplicar en los equipos la siguiente regla puppet:
 ```
 file { '/usr/bin/gnome-keyring-daemon':
 ensure => file,
 mode => '0644'
-}```
+}
+```
 
 
 
