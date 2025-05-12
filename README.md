@@ -49,7 +49,7 @@ Puede ser útil para las siguientes situaciónes:
 ## Copia de Seguridad de Ldap.
 
 Es importante realizar una copia de seguridad de ldap antes de ejecutar el script.
-El script está probado por distintos compañeros, pero la modificar el árbol ldap, se recomienda hacer una copia de seguridad.
+El script está probado por distintos compañeros, pero como toca la base de datos de ldap, se recomienda hacer una copia de seguridad.
 
 * Generar copia de seguridad de ldap
 ```bash
