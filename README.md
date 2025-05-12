@@ -15,6 +15,8 @@ Puede ser útil en las siguientes situaciónes:
    Podemos generar una contraseña temporal sencilla para los alumnos. Así se agilizan el acceso a ordenadores, práctico cuando muchos alumnos están realizando una prueba.
 3. **Contraseñas para grupos:**
    Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por el ejemplo los alumnos de Informática.
+4. **Forzar a el profesorado a cambiar su contraseña**
+   Al disponer nosotros de una contraseña secreta, podemos forzar a que el profesorado cambie la que pone el sistema por defecto. Mejorando así la seguridad.
 
 ## Descripción de las opciones del Menú.
 1. **Añadir nueva contraseña.**
