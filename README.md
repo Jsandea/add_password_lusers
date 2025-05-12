@@ -19,8 +19,8 @@ Puede ser útil para las siguientes situaciónes:
 ## Descripción de las opciones del Menú.
 1. **Añadir nueva contraseña.**
    Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios no se tocan )
-   Nos permite añadirla a el grupo de "Alumnos" de "Profesores" a ambos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad se aconseja almacenar la contraseña codificada. A pesar de que el algorimo SHA1 no es de los más
-   seguros. Se hicieron pruebas con otros algoritmos más robústos pero no funcionaba.Añadir contraseña a un grupo.
+   Nos permite añadirla a el grupo de "Alumnos" de "Profesores" a ambos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad mejor almacenar la contraseña codificada. A pesar de que el algorimo SHA1 no es de los más
+   seguros. Se hicieron pruebas con otros algoritmos más robústos pero no funcionaba.
 2. **Añadir contraseña a un grupo.**
    Añadimos una contraseña a los miembros de un grupo dado.
    En controlies podemos ver los grupos, los miembros de ese grupo , y el identificador de dicho grupo. (Hay grupos sin miembros)
@@ -30,7 +30,7 @@ Puede ser útil para las siguientes situaciónes:
 5. **Mostrar usuario para comprobar inserción**
    Por ejemplo si ponemos una contraseña a los miembros de un grupo, podemos buscar 2 miembros de este grupo y comprobar que la contraseña ha sido insertada en ambos.
 7. **Abortar Misión.**
-   Salimos del progbrama
+   Salimos del programa
 
 
 ## Puesta en marcha
