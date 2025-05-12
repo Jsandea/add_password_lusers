@@ -38,7 +38,7 @@ Puede ser útil en las siguientes situaciónes:
 ## Puesta en marcha
 
 1. Editar el script, cambiando la variable: "mi_servidor_ldap"
-2. En un equipo cliente con Xubuntu 22 (no ejecutar en el servidor): 
+2. En un equipo cliente con Xubuntu 22.04 (no ejecutar en el servidor): 
 ```bash
     apt-get install python3-pip
     pip3 install ldap3
@@ -64,11 +64,12 @@ systemctl start slapd
 ```bash
 slapadd -n 1 -l CopiadSeguridad.ldif
 ```
-## Problema con el depósio de claves
+## Problema con el depósito de claves
 Para evitar interferencias entre las contraseñas y que salga el molesto mensaje del depósito de claves,
 tenemos que aplicar en los equipos la siguiente regla puppet.
 
-```file { '/usr/bin/gnome-keyring-daemon':
+```
+file { '/usr/bin/gnome-keyring-daemon':
 ensure => file,
 mode => '0644'
 }```
