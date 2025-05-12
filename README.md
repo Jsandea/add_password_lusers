@@ -3,6 +3,8 @@
 El objetivo de este script es añadir contraseñas masivas extra a grupos de usuarios ldap del sistema,
 para facilitar la administración informática
 
+ ![A sample image](ldapPWD.png)
+
 ## Casos de uso
 
 Puede ser útil para las siguientes situaciónes:
