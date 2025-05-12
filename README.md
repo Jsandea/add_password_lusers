@@ -7,7 +7,7 @@ para facilitar la administración informática
 
 ## Casos de uso
 
-Puede ser útil para las siguientes situaciónes:
+Puede ser útil en las siguientes situaciónes:
 
 1. **Asistencia a un profesor en el aula:**
    Si disponemos de una contraseña secreta pero fácil de recordar, la asistencia cuando el profesor da clases será más sencilla.
@@ -18,9 +18,9 @@ Puede ser útil para las siguientes situaciónes:
 
 ## Descripción de las opciones del Menú.
 1. **Añadir nueva contraseña.**
-   Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios no se tocan )
+   Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios se mantienen, conviven ambas )
    Nos permite añadirla a el grupo de "Alumnos" de "Profesores" a ambos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad mejor almacenar la contraseña codificada. A pesar de que el algorimo SHA1 no es de los más
-   seguros. Se hicieron pruebas con otros algoritmos más robústos pero no funcionaba.
+   seguros. Se hicieron pruebas con otros algoritmos más robustos pero no funcionaba.
 2. **Añadir contraseña a un grupo.**
    Añadimos una contraseña a los miembros de un grupo dado.
    En controlies podemos ver los grupos, los miembros de ese grupo , y el identificador de dicho grupo. (Hay grupos sin miembros)
