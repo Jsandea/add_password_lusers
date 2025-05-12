@@ -14,18 +14,23 @@ Puede ser útil para las siguientes situaciónes:
 2. **Pruebas de diágnostico:**
    Podemos generar una contraseña temporal sencilla para los alumnos. Así se agilizan el acceso a ordenadores, práctico cuando muchos alumnos están realizando una prueba.
 3. **Contraseñas para grupos:**
-   Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por elemplo los alumnos de Informática.
+   Se pueden generar contraseñas para grupos concretos que trabajen mucho con ordenadores, como por el ejemplo los alumnos de Informática.
 
 ## Descripción de las opciones del Menú.
-1. Añadir nueva contraseña.
-   Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios no se tocan)
-   Nos permite añadirla a a los "Alumnos" , "Profesores" a todos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad se aconseja almacenar la contraseña codificada a pesar de que el algorimo SHA1 no es de los más
-   seguros ( tiene colisiones )
-   
-3. Añadir contraseña a un grupo.
-4. Eliminar contraseña insertada.
-5. Mostrar usuario para comprobar inserción
-6. Abortar Misión.
+1. **Añadir nueva contraseña.**
+   Nos permite añadir una contraseña masiva extra. ( Las anteriores contraseñas que tuviesen los usuarios no se tocan )
+   Nos permite añadirla a el grupo de "Alumnos" de "Profesores" a ambos. Nos permite almacenar la contraseña en texto plano o codificada. Por seguridad se aconseja almacenar la contraseña codificada. A pesar de que el algorimo SHA1 no es de los más
+   seguros. Se hicieron pruebas con otros algoritmos más robústos pero no funcionaba.Añadir contraseña a un grupo.
+2. **Añadir contraseña a un grupo.**
+   Añadimos una contraseña a los miembros de un grupo dado.
+   En controlies podemos ver los grupos, los miembros de ese grupo , y el identificador de dicho grupo. (Hay grupos sin miembros)
+3. **Eliminar contraseña insertada.**
+   Con esa opción podemos eliminar una contraseña de la base de datos de usuarios.
+   Podemos buscar una cotraseña en texto plano, o codificarla y buscar la contraseña ya codificada.
+5. **Mostrar usuario para comprobar inserción**
+   Por ejemplo si ponemos una contraseña a los miembros de un grupo, podemos buscar 2 miembros de este grupo y comprobar que la contraseña ha sido insertada en ambos.
+7. **Abortar Misión.**
+   Salimos del progbrama
 
 
 ## Puesta en marcha
